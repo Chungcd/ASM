@@ -11,11 +11,11 @@ public class Main {
         ArrayList<Student> students = new ArrayList<Student>();
         ArrayListAddStudent st = new ArrayListAddStudent();
         System.out.println("****** Add Student ********");
-        st.addStudent(students, new Student("BH001","Nguyen Thanh Trieu", 8.0));
+        st.addStudent(students, new Student("BH001","Can Viet Tien", 8.0));
 
-        st.addStudent(students, new Student("BH002","Nguyen Thanh Toan", 7.5));
+        st.addStudent(students, new Student("BH002","Nguyen Thanh Tung", 7.5));
 
-        st.addStudent(students, new Student("BH003","Nguyen Thanh Toan", 6.0));
+        st.addStudent(students, new Student("BH003","Can Duc Chung", 6.0));
         System.out.println("********* List data of students **********");
         for (Student s : students){
             System.out.println("ID = " + s.id +" , fullName = " + s.fullName + " , mark = " + s.mark + " , rank = " + s.rank);
